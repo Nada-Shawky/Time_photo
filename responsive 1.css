@@ -1,0 +1,364 @@
+/*global*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+ul{
+    list-style: none;
+    float: right;
+}
+
+ul li{
+    float: left;
+}
+
+button{
+    margin-top: 50px;
+    padding: 8px 39px;
+    font-size: 23px;
+    background-color: #16A085;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-transform:uppercase;
+}
+button:hover{
+    background-color: #FF7777;
+    
+}
+
+ p{
+    color: #C2C3C4;
+    line-height: 30px;
+}
+ p span{
+    color: black;
+}
+
+                                                                        /*part 1*/
+/*sec 1*/
+header{
+    background-image: url("image/HEADER.png");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    height: 650px;
+}
+header .link {
+    padding: 50px;
+    font-size: 16px;
+    
+}
+header .link ul li{
+    margin: 41px 114px 40px 35px;
+    cursor: pointer;
+}
+header .link ul li img{
+    margin-top: -40px;;
+}
+
+/*sec 2*/
+header .para{
+    margin-top: 180px;
+    overflow: hidden;
+}
+header .para h2{
+    font-size: 30px;
+}
+header .para p{
+    font-size: 15px;
+}
+
+/*sec 3*/
+header .icon ul {
+    margin :160px 525px 10px;
+}
+header .icon ul li{
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+@media (min-width:992px) and (max-width: 1199px){
+    .container{
+        width: 970px;
+    }
+    /*sec 1*/
+    header .link ul li{
+        margin-right: 83px;
+    }
+    /*sec 3*/
+    header .icon ul {
+        margin: 140px 409px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px){
+    .container{
+        width: 750px;
+    }
+    /*sec 1*/
+    header .link ul li{
+        margin-right: 40px;
+    }
+    /*sec 3*/
+    header .icon ul {
+        margin: 140px 309px
+    }
+
+}
+
+@media(max-width: 767px){
+    .container{
+        width: 100%;
+    }
+    header .link ul li{
+        float: none;
+        margin : 10px 0px;
+        margin-right: 50vh;
+    }
+    header .link ul li img{
+        margin-top: 0px;;
+    }
+    header .icon ul {
+        margin: 120px 47vh
+    }
+}
+
+                                                        /*part 2*/
+.part2{
+    background-image: url("image/PART2.png");
+    height: 493px;
+    text-align: left;
+    color: black;
+}                                                    
+.part2 .note{
+    width: 33%;
+    padding-top: 100px;
+}
+.part2 .note h2{
+    color: #16A085;
+    padding-bottom: 40px;
+}
+
+@media(min-width:768px) and (max-width:991px){
+    .part2 .note{
+        width: 55%;
+    }    
+}
+
+@media(max-width: 767px){
+    .part2 .note{
+        width: 70%;
+        padding-left: 30px; 
+    }
+}
+                                                        /*part 3*/
+
+.part3{
+margin-top: 100px;
+height: 450px;
+}
+.part3 .img{
+    width: 50%;
+    float: left;
+}
+.part3 .prg{
+    width: 50%;
+    float: right;
+}
+.part3 .prg h2{
+    color: #16A085;
+    margin-top: 55px;
+    margin-bottom: 30px;
+}
+@media(max-width: 767px){
+    .part3{
+        margin-top: 40px;
+        height: 1000px;
+        }
+    .part3 .img{
+        width: 100%;
+        float: none;
+    }
+    .part3 .img img{
+        width: 70%;
+        margin: auto;
+    }
+    .part3 .prg{
+        width: 100%;
+        float: none;
+        text-align: center;
+        padding-left: 20px;
+    }
+    .part3 .prg h2{
+        text-align: center;
+    }
+}
+
+                                                        /*part 4*/
+.part4{
+    background-color :#F5F6F7;
+    padding: 100px;
+    overflow: hidden;
+}
+.part4 .cam ,.part4 .image1  {
+    width: 30%;
+    float: left;
+    margin-right: 3px;
+}
+.part4 .cam {
+    text-align: center;
+    margin-top: 10px;
+}
+.part4 .cam h4{
+    padding: 20px;
+    font-size: 18px;
+}
+.part4 .cam p{
+    width: 200px;
+    margin: auto;
+}
+
+.part4 .image1 img{
+    margin-left: 35px;
+}
+
+.part4 .image2 img{
+    margin-left: 80px;
+}
+
+@media (min-width:992px) and (max-width: 1199px){
+
+    .part4 .cam ,.part4 .image1{
+        width: 40%;
+    }
+    .part4 .image1 img{
+        margin-left: 90px;
+    }
+    
+    .part4 .image2 img{
+        margin-left: 20px;
+    }
+
+}
+
+@media(min-width:768px) and (max-width:991px){
+    .part4 .cam ,.part4 .image1{
+        width: 73%;
+        float: none;
+    }
+    .part4 .image1 img{
+        margin: 20px 80px;
+    }
+}
+
+@media(max-width:767px){
+    .part4 .cam ,.part4 .image1{
+        width: 100%;
+        float: none;
+    }
+    .part4 .image1 img{
+        margin: 20px 50vh;
+    }
+    .part4 .image2 img{
+        margin: 20px 50vh;
+    }
+}
+
+                                                        /*part 5*/
+.part5{
+    background-image: url("image/n.png");
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+.part5 h2{
+    padding-top: 40vh;
+}
+.part5 input{
+    height: 50px;
+    width: 200px;
+    padding: 0px 10px;
+}
+.part5 a i{
+    background-color: #16A085;
+    width: 50px;
+    line-height: 50px;
+    margin-left: -5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+
+
+                                                        /*part 6*/
+.part6{
+    background-color: #F5F6F7;
+    height: 410px;
+    text-align: center;
+}
+.part6 h2{
+    padding: 97px 0px 25px
+}
+.part6 button{
+    margin-right: 19px;
+    margin-top: 18px;
+}
+.part6 button i{
+    padding-left: 7px;
+}
+
+@media(max-width: 767px){
+    .part6{
+        height: 600px;
+    }
+}
+
+                                                        /*final*/
+.final{
+    padding-top: 50px;
+    height: 10vh;
+}
+.final h4{
+    width: 20%;
+    float: left;
+    cursor: pointer;
+}
+.final h4 span::after ,.final h4 span::before {
+    content: "|";
+    margin: 0px 5px;
+}
+.final img{
+    width: 60px;
+    height: 60px;
+    float: right;
+
+}
+
+@media(min-width:768px) and (max-width: 991px){
+    .final h4{
+        width: 33%;
+    }
+}
+
+@media(max-width:767px){
+    .final h4{
+        width: 55%;
+        float: none;
+        text-align: center;
+        padding-left: 85px;
+    }
+    .final img{
+        float: none;
+        padding: 10px 170px
+    }
+}
